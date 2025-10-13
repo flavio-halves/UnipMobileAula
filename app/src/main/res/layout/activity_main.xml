@@ -18,6 +18,12 @@
             android:text="Criar Ticket (POST)"
             android:textColorLink="#FFC107" />
 
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:text="Sair" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerTickets"
             android:layout_width="match_parent"
@@ -25,5 +31,6 @@
             android:layout_marginTop="12dp"
             android:layout_weight="1"/>
     </LinearLayout>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

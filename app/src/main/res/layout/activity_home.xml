@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Logo UNIP -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/unip_logo"
+        android:contentDescription="@string/app_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tvBemVindo"
+        android:text="Bem-vindo!"
+        android:textStyle="bold" android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCriarTicket"
+        android:text="Criar Ticket"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnListarTickets"
+        android:text="Listar Tickets"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <View android:layout_width="match_parent" android:layout_height="8dp"/>
+
+    <Button
+        android:id="@+id/btnCriarUsuario"
+        android:text="Criar Usuário"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnListarUsuarios"
+        android:text="Listar Usuários"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnSair"
+        android:text="Sair"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
